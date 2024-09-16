@@ -1,9 +1,9 @@
 import React from 'react'
-
+import Navbar from '../components/Navbar'
 const Home = () => {
   return (
-    <div className='h-full w-full font-sans bg-slate-50 text-red-600'>
-      Home
+    <div>
+      <Navbar/>
     </div>
   )
 }
