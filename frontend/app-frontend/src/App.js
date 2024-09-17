@@ -11,7 +11,7 @@ export default function App() {
 <Router>
 <Toaster/>
   <Routes>
-    <Route path='/' element={<Home/>}/>
+    <Route path='/dashboard' element={<Home/>}/>
     <Route path='/Login' element={<Login/>}/>
     <Route path='/Signup' element={<Signupp/>}/>
   
